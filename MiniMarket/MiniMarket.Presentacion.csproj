@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MiniMarket</RootNamespace>
+    <AssemblyName>MiniMarket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1586.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_Almacenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Almacenes.Designer.cs">
+      <DependentUpon>Frm_Almacenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Productos.Designer.cs">
+      <DependentUpon>Frm_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_UnidadesMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_UnidadesMedidas.Designer.cs">
+      <DependentUpon>Frm_UnidadesMedidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Marcas.Designer.cs">
+      <DependentUpon>Frm_Marcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Categorias.Designer.cs">
+      <DependentUpon>Frm_Categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\DataSet1_MiniMarket.cs">
+      <DependentUpon>DataSet1_MiniMarket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\DataSet1_MiniMarket.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1_MiniMarket.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Almacenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Almacenes.Designer.cs">
+      <DependentUpon>Frm_Rpt_Almacenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Categoria.Designer.cs">
+      <DependentUpon>Frm_Rpt_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Marcas.Designer.cs">
+      <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Unidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Unidades.Designer.cs">
+      <DependentUpon>Frm_Rpt_Unidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="Frm_Almacenes.resx">
+      <DependentUpon>Frm_Almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Productos.resx">
+      <DependentUpon>Frm_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_UnidadesMedidas.resx">
+      <DependentUpon>Frm_UnidadesMedidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Marcas.resx">
+      <DependentUpon>Frm_Marcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Categorias.resx">
+      <DependentUpon>Frm_Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Almacenes.resx">
+      <DependentUpon>Frm_Rpt_Almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Categoria.resx">
+      <DependentUpon>Frm_Rpt_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Marcas.resx">
+      <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Unidades.resx">
+      <DependentUpon>Frm_Rpt_Unidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Rpt_Almacenes.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Categorias.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Marcas.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Reportes\DataSet1_MiniMarket.xsc">
+      <DependentUpon>DataSet1_MiniMarket.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSet1_MiniMarket.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1_MiniMarket.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataSet1_MiniMarket.xss">
+      <DependentUpon>DataSet1_MiniMarket.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MiniMarket.Entidades\MiniMarket.Entidades.csproj">
+      <Project>{9e877888-ae35-4b78-b5ca-d9f59f8181f0}</Project>
+      <Name>MiniMarket.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MiniMarket.Negocio\MiniMarket.Negocio.csproj">
+      <Project>{25ce5bbd-5b88-48e9-b198-d70886151f30}</Project>
+      <Name>MiniMarket.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
