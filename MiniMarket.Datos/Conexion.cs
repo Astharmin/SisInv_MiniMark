@@ -21,7 +21,7 @@ namespace MiniMarket.Datos
             this.Base = "BD_MiniMarket";
             this.Servidor = "Astharmin\\SQLEXPRESS";
             this.Usuario = "Sistemas";
-            this.Clave = "0421The_Soul";
+            this.Clave = "*****";
             this.Seguridad = false;
         }
 
