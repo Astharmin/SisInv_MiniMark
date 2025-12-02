@@ -25,3 +25,12 @@ C:\Users\aaron\ProyectosC#\MiniMarket\MiniMarket.Datos\obj\Debug\MiniMarket.Dato
 C:\Users\aaron\ProyectosC#\MiniMarket\MiniMarket.Datos\obj\Debug\MiniMark.B9D886D6.Up2Date
 C:\Users\aaron\ProyectosC#\MiniMarket\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.dll
 C:\Users\aaron\ProyectosC#\MiniMarket\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.pdb
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Datos.dll
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Datos.pdb
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Entidades.dll
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Entidades.pdb
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.csproj.AssemblyReference.cache
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.csproj.CoreCompileInputs.cache
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMark.B9D886D6.Up2Date
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.dll
+C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.pdb
