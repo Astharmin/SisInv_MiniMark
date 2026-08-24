@@ -31,3 +31,14 @@ C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMark
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMark.21B5E690.Up2Date
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.dll
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Negocio.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Negocio.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Datos.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Entidades.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Datos.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\bin\Debug\MiniMarket.Entidades.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.csproj.AssemblyReference.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.csproj.CoreCompileInputs.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMark.21B5E690.Up2Date
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Negocio\obj\Debug\MiniMarket.Negocio.pdb

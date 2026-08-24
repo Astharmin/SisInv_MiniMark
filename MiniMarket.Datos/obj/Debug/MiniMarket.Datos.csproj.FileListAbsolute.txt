@@ -34,3 +34,12 @@ C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMark.B9D886D6.Up2Date
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.dll
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Datos.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Datos.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Entidades.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\bin\Debug\MiniMarket.Entidades.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.csproj.AssemblyReference.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.csproj.CoreCompileInputs.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMark.B9D886D6.Up2Date
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Datos\obj\Debug\MiniMarket.Datos.pdb
