@@ -160,7 +160,7 @@ namespace MiniMarket
             }
             else
             {
-                this.Codigo_ma = Convert.ToInt32(Dgv_medidas.CurrentRow.Cells["codigo_um"].Value);
+                this.Codigo_um = Convert.ToInt32(Dgv_medidas.CurrentRow.Cells["codigo_um"].Value);
                 Txt_descripcion_um.Text = Convert.ToString(Dgv_medidas.CurrentRow.Cells["descripcion_um"].Value);
             }
         }
@@ -229,14 +229,24 @@ namespace MiniMarket
             {
                 E_Productos oPr = new E_Productos();
                 string Rpta = "";
-                oPr.Codigo_pr = this.Codigo_pr;
+
+                if (EstadGuardar == 1)
+                {
+                    oPr.Codigo_pr = 0; 
+                }
+                else
+                {
+                    oPr.Codigo_pr = this.Codigo_pr; 
+                }
+                
+
                 oPr.Descripcion_pr = Txt_descripcion_pr.Text.Trim();
                 oPr.Codigo_ma = this.Codigo_ma;
                 oPr.Codigo_um = this.Codigo_um;
                 oPr.Codigo_ca = this.Codigo_ca;
-                oPr.Stock_min = Convert.ToDecimal (Txt_stock_min.Text);
-                oPr.Stock_max = Convert.ToDecimal (Txt_stock_max.Text);
-                
+                oPr.Stock_min = Convert.ToDecimal(Txt_stock_min.Text);
+                oPr.Stock_max = Convert.ToDecimal(Txt_stock_max.Text);
+
                 Rpta = N_Productos.Guardar_pr(EstadGuardar, oPr);
                 if (Rpta == "Ok")
                 {
@@ -268,6 +278,7 @@ namespace MiniMarket
 
         private void Btn_nuevo_Click(object sender, EventArgs e)
         {
+            this.Codigo_pr = 0;
             EstadGuardar = 1;
             this.Estado_BotonPrin(false);
             this.Estado_Procesos(true);
@@ -429,7 +440,7 @@ namespace MiniMarket
             this.Selec_iten_ca_pr();
             Pnl_Listado_ca.Visible = false;
 
-        }  
+        }
 
         private void Btn_lupa3_Click_1(object sender, EventArgs e)
         {
