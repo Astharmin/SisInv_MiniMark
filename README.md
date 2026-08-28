@@ -1,65 +1,51 @@
-# 🏪 **SisInv+ | Sistema de Inventario & Ventas**  
+# 🏪 **SisInv+ | Sistema de Inventario & Ventas**
 
-**Solución integral para PYMES** | *"Control total, crecimiento sencillo"*  
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo%20Activo-brightgreen?style=for-the-badge)
+![Licencia](https://img.shields.io/badge/Licencia-GPL%20v3.0-blue?style=for-the-badge)
 
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![WinForms](https://img.shields.io/badge/WinForms-5C2D91?style=for-the-badge&logo=windows&logoColor=white)
-![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=for-the-badge)
+**Solución integral para PYMES** | _"Control total, crecimiento sencillo"_
 
 ---
 
-## 🌟 **Características Principales**
+## 🌟 **¿Qué es SisInv+?**
 
-### 📦 **Gestión de Inventario**
-- ✅ **Control en tiempo real** de stock y productos
-- 📊 **Alertas automáticas** de stock bajo
-- 🔄 **Sistema multi-sucursal** integrado
-- 🏷️ **Categorización avanzada** de productos
+**SisInv+** es un sistema de gestión integral diseñado para pequeñas y medianas empresas que buscan **control total** sobre su inventario, ventas y clientes. Olvídate del desorden y de las hojas de cálculo. Este software te ofrece una plataforma sólida, construida con **C# y SQL Server**, para centralizar y optimizar tu negocio.
 
-### 💰 **Módulo de Ventas**
-- 🧾 **Facturación electrónica** integrada
-- 📈 **Dashboard de ventas** con métricas
-- 👥 **Gestión de clientes** y historial
-- 💳 **Múltiples métodos** de pago
+### **Características Principales**
 
-### 📊 **Reportes & Analytics**
-- 📋 **Reportes automáticos** en PDF/Excel
-- 📉 **Análisis de tendencias** de ventas
-- 🔍 **Filtros avanzados** por fecha y categoría
-- 📱 **Exportación multiplataforma**
+| Módulo | Funcionalidades Clave |
+| :--- | :--- |
+| 📦 **Inventario** | Control en tiempo real, alertas de stock bajo, gestión multi-sucursal, categorización avanzada de productos. |
+| 💰 **Ventas** | Facturación electrónica, dashboard con métricas, gestión de clientes e historial, múltiples métodos de pago. |
+| 📊 **Reportes** | Generación automática de reportes en PDF/Excel, análisis de tendencias de ventas, filtros avanzados por fecha y categoría, exportación a múltiples formatos. |
 
 ---
 
 ## 🛠️ **Tecnologías Utilizadas**
 
-### 🔧 Backend & Base de Datos
-- **C# (.NET Framework)** - Lenguaje principal
-- **SQL Server** - Base de datos relacional
-- **Entity Framework** - ORM para persistencia
-- **Windows Forms** - Interfaz de usuario
-
-### 📊 Reporting & Exportación
-- **iTextSharp** - Generación de PDF
-- **ClosedXML** - Exportación a Excel
-- **Chart.Windows** - Gráficos y visualizaciones
-
-### 🔐 Seguridad
-- **Autenticación Windows** o personalizada
-- **Encriptación** de datos sensibles
-- **Backup automático** de base de datos
+*   **C# (.NET Framework):** Lenguaje principal para la lógica de negocio.
+*   **SQL Server:** Base de datos relacional robusta y confiable.
+*   **Entity Framework:** ORM para simplificar la interacción con la base de datos.
+*   **Windows Forms:** Framework para una interfaz de usuario clásica y eficiente.
+*   **iTextSharp / ClosedXML:** Librerías para la generación de reportes en PDF y Excel.
+*   **Chart.Windows:** Para la visualización de datos y gráficos.
 
 ---
 
 ## 🏗️ **Arquitectura del Sistema**
+
+El sistema sigue una arquitectura por capas que separa la presentación, la lógica de negocio y el acceso a datos, lo que facilita su mantenimiento y escalabilidad.
 
 ```mermaid
 graph TB
     A[Interfaz WinForms] --> B[Lógica de Negocio C#]
     B --> C[Entity Framework]
     C --> D[SQL Server Database]
-    
+
     E[Reportes PDF] --> B
     F[Exportación Excel] --> B
     G[Backup Automático] --> D
@@ -69,64 +55,59 @@ graph TB
 
 ## 🚀 **Instalación y Configuración**
 
-### Prerrequisitos
-- **Windows 10/11** o Windows Server 2019+
-- **.NET Framework 4.8**
-- **SQL Server 2019** o superior
-- **4GB RAM** mínimo, 8GB recomendado
+### **Prerrequisitos**
 
-### ⚡ Instalación Rápida
-```bash
-# 1. Clonar repositorio
-git clone https://github.com/Astharmin/SisInv_MiniMark.git
+*   **Sistema Operativo:** Windows 10/11 o Windows Server 2019+.
+*   **Framework:** .NET Framework 4.8.
+*   **Base de Datos:** SQL Server 2019 o superior.
+*   **Hardware:** 4GB RAM (mínimo), 8GB RAM (recomendado).
 
-# 2. Restaurar base de datos
-# Ejecutar script SQL incluido
+### **Pasos Rápidos**
 
-# 3. Configurar conexión
-# Editar archivo App.config
+1.  **Clona el repositorio**
+    ```bash
+    git clone https://github.com/Astharmin/SisInv_MiniMark.git
+    ```
 
-# 4. Compilar y ejecutar
-# Abrir solución en Visual Studio
-```
+2.  **Configura la Base de Datos**
+    *   La aplicación incluye scripts para la creación automática de la base de datos.
+    *   Puedes ejecutar el script `CREATE DATABASE SisInvPlus;` manualmente o permitir que la aplicación lo haga al iniciar.
 
-### 🔧 Configuración de Base de Datos
-```sql
--- Script de creación automática
-USE master;
-CREATE DATABASE SisInvPlus;
--- La aplicación crea las tablas automáticamente
-```
+3.  **Configura la Conexión**
+    *   Edita el archivo `App.config` para establecer la cadena de conexión a tu instancia de SQL Server.
+
+4.  **Compila y Ejecuta**
+    *   Abre la solución en Visual Studio y compila el proyecto. ¡El sistema está listo para usar!
 
 ---
 
-## 📜 **Licencia GPL v3.0**
+## 📜 **Licencia y Contribuciones**
 
-Este proyecto está licenciado bajo la **GNU General Public License v3.0**.
+### **Licencia Pública General de GNU v3.0**
 
-### 🔑 **Derechos y Libertades**
-- ✅ **Usar** el software para cualquier propósito
-- ✅ **Estudiar** cómo funciona y adaptarlo a tus necesidades
-- ✅ **Distribuir** copias a terceros
-- ✅ **Mejorar** el software y publicar tus mejoras
+Este proyecto se distribuye bajo los términos de la **GPL v3.0**, una licencia que protege tus libertades y las de los usuarios. Puedes:
 
-### 📋 **Condiciones Principales**
-- Las obras derivadas deben usar la **misma licencia GPL v3.0**
-- Debe incluirse el **código fuente** completo
-- Se debe mantener la **atribución** original
-- Los cambios deben estar **documentados**
+*   ✅ Usar, estudiar y compartir el software.
+*   ✅ Modificarlo y adaptarlo a tus necesidades.
+*   ✅ Distribuir copias y mejoras, siempre que mantengas la misma licencia y atribución.
 
-### 📄 **Texto Completo de la Licencia**
-Consulta el archivo completo [LICENSE](LICENSE) para todos los términos y condiciones.
+Consulta el archivo `LICENSE` para conocer todos los términos y condiciones.
+
+### 🤝 **¿Cómo Contribuir?**
+
+Este es un proyecto en activo. Si tienes ideas, encuentras errores o quieres mejorar el sistema:
+
+1.  Haz un **Fork** del repositorio.
+2.  Crea una rama para tu funcionalidad (`git checkout -b feature/AmazingFeature`).
+3.  Realiza tus cambios y haz commit (`git commit -m 'Add some AmazingFeature'`).
+4.  Sube tus cambios (`git push origin feature/AmazingFeature`).
+5.  Abre un **Pull Request** para revisar tu contribución.
 
 ---
 
-<div align="center">
-
-### ⭐ ¿Te gusta este proyecto? ¡Déjame una estrella en GitHub!
+⭐ **¿Te gusta este proyecto? ¡Déjame una estrella en GitHub!**
 
 **Desarrollado con ❤️ por [Astharmin](https://github.com/Astharmin)**
 
-*"Software libre para PYMES libres"*
-
-</div>
+_"Software libre para PYMES libres"_
+```
