@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\frm_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\frm_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77A8764D-BEB2-4D93-AB79-C72EEC5CB676}|MiniMarket.Datos\\MiniMarket.Datos.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket.datos\\d_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A8764D-BEB2-4D93-AB79-C72EEC5CB676}|MiniMarket.Datos\\MiniMarket.Datos.csproj|solutionrelative:minimarket.datos\\d_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\frm_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\frm_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{25CE5BBD-5B88-48E9-B198-D70886151F30}|MiniMarket.Negocio\\MiniMarket.Negocio.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket.negocio\\n_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25CE5BBD-5B88-48E9-B198-D70886151F30}|MiniMarket.Negocio\\MiniMarket.Negocio.csproj|solutionrelative:minimarket.negocio\\n_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Frm_Productos.cs",
-              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Productos.cs",
-              "RelativeDocumentMoniker": "MiniMarket\\Frm_Productos.cs",
-              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Productos.cs",
-              "RelativeToolTip": "MiniMarket\\Frm_Productos.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwOcAAAAAAAAAAAAAAA==",
+              "Title": "D_Productos.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket.Datos\\D_Productos.cs",
+              "RelativeDocumentMoniker": "MiniMarket.Datos\\D_Productos.cs",
+              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket.Datos\\D_Productos.cs",
+              "RelativeToolTip": "MiniMarket.Datos\\D_Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T17:09:45.107Z",
+              "WhenOpened": "2026-08-28T15:40:25.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Frm_Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Productos.cs",
-              "RelativeDocumentMoniker": "MiniMarket\\Frm_Productos.cs",
-              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MiniMarket\\Frm_Productos.cs [Dise\u00F1o]",
+              "Title": "N_Productos.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket.Negocio\\N_Productos.cs",
+              "RelativeDocumentMoniker": "MiniMarket.Negocio\\N_Productos.cs",
+              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket.Negocio\\N_Productos.cs",
+              "RelativeToolTip": "MiniMarket.Negocio\\N_Productos.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T17:09:37.885Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-08-28T15:38:28.987Z",
+              "EditorCaption": ""
             }
           ]
         }

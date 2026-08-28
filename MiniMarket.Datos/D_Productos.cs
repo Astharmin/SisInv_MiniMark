@@ -55,7 +55,7 @@ namespace MiniMarket.Datos
                 Comando.Parameters.Add("@nStock_min", SqlDbType.Decimal).Value = oPr.Stock_min;
                 Comando.Parameters.Add("@nStock_max", SqlDbType.Decimal).Value = oPr.Stock_max;
                 SqlCon.Open();
-                Rpta = Comando.ExecuteNonQuery() == 1 ? "Ok" : "No se registro los Datos";
+                Rpta = Comando.ExecuteNonQuery() >= 1 ? "Ok" : "No se registro los Datos";
             }
             catch (Exception ex)
             {
