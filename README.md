@@ -100,19 +100,6 @@ CREATE DATABASE SisInvPlus;
 
 ---
 
-## 📊 **Métricas del Sistema**
-
-```mermaid
-pie
-    title Distribución de Tecnologías
-    "C# & .NET" : 45
-    "SQL Server" : 30
-    "WinForms UI" : 15
-    "Reporting" : 10
-```
-
----
-
 ## 📜 **Licencia GPL v3.0**
 
 Este proyecto está licenciado bajo la **GNU General Public License v3.0**.
@@ -141,13 +128,5 @@ Consulta el archivo completo [LICENSE](LICENSE) para todos los términos y condi
 **Desarrollado con ❤️ por [Astharmin](https://github.com/Astharmin)**
 
 *"Software libre para PYMES libres"*
-
-```mermaid
-graph TD
-    A[Software Libre] --> B[Comunidad Activa]
-    B --> C[Mejoras Continuas]
-    C --> D[Beneficio Colectivo]
-    D --> A
-```
 
 </div>
