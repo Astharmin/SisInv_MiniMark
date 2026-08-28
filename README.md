@@ -110,4 +110,3 @@ Este es un proyecto en activo. Si tienes ideas, encuentras errores o quieres mej
 **Desarrollado con ❤️ por [Astharmin](https://github.com/Astharmin)**
 
 _"Software libre para PYMES libres"_
-```
