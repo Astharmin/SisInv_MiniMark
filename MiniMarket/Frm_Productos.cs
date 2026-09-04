@@ -269,6 +269,7 @@ namespace MiniMarket
                         MessageBoxIcon.Information);
 
                     EstadGuardar = 0;
+                    Gbx_Detalles.Visible = false;
                     this.Estado_BotonPrin(true);
                     this.Estado_Procesos(false);
                     Txt_descripcion_pr.Text = "";
@@ -290,8 +291,9 @@ namespace MiniMarket
 
         private void Btn_nuevo_Click(object sender, EventArgs e)
         {
-            this.Codigo_pr = 0;
             EstadGuardar = 1;
+            Gbx_Detalles.Visible = false;
+            this.Codigo_pr = 0;
             this.Estado_BotonPrin(false);
             this.Estado_Procesos(true);
             Txt_descripcion_pr.Text = "";
@@ -307,6 +309,7 @@ namespace MiniMarket
         private void Btn_actualizar_Click(object sender, EventArgs e)
         {
             EstadGuardar = 2;
+            Gbx_Detalles.Visible = false;
             this.Codigo_pr = 0;
             this.Estado_BotonPrin(false);
             this.Estado_Procesos(true);
@@ -319,6 +322,7 @@ namespace MiniMarket
         private void Btn_cancelar_Click(object sender, EventArgs e)
         {
             EstadGuardar = 0;
+            Gbx_Detalles.Visible = false;
             this.Codigo_pr = 0;
             Txt_descripcion_pr.Text = "";
             Txt_stock_min.Text = "0";
@@ -336,6 +340,7 @@ namespace MiniMarket
             this.Selec_iten();
             this.Estado_Procesos(false);
             Tbp_principal.SelectedIndex = 1;
+            Gbx_Detalles.Visible = true;
         }
 
         private void Btn_retornar_Click(object sender, EventArgs e)
@@ -343,6 +348,7 @@ namespace MiniMarket
             this.Estado_Procesos(false);
             Tbp_principal.SelectedIndex = 0;
             this.Codigo_pr = 0;
+            Gbx_Detalles.Visible = false;
         }
 
         private void Dgv_principal_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -468,6 +474,16 @@ namespace MiniMarket
         private void Btn_retornar3_Click(object sender, EventArgs e)
         {
             Pnl_Listado_ca.Visible = false;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
