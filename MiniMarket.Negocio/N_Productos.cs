@@ -47,5 +47,11 @@ namespace MiniMarket.Negocio
             D_Productos Datos = new D_Productos();
             return Datos.Listado_ca_pr(cTexto);
         }
+
+        public static DataTable Stock_Actual_ProdxAlmacen(int nCodigo_pr)
+        {
+            D_Productos Datos = new D_Productos();
+            return Datos.Stock_Actual_ProdxAlmacen(nCodigo_pr);
+        }
     }
 }

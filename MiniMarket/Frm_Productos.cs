@@ -213,6 +213,29 @@ namespace MiniMarket
             }
         }
 
+        private void Formato_stock_actual()
+        {
+            Dgv_Stock_actual.Columns[0].Width = 145;
+            Dgv_Stock_actual.Columns[0].HeaderText = "ALMACEN";
+            Dgv_Stock_actual.Columns[1].Width = 60;
+            Dgv_Stock_actual.Columns[1].HeaderText = "STOCK ACTUAL";
+            Dgv_Stock_actual.Columns[2].Width = 60;
+            Dgv_Stock_actual.Columns[2].HeaderText = "PU COMPRA";
+        }
+
+        private void Listado_stock_actual(int nCodigo_pr)
+        {
+            try
+            {
+                Dgv_Stock_actual.DataSource = N_Productos.Stock_Actual_ProdxAlmacen(nCodigo_pr);
+                this.Formato_stock_actual();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
         #endregion
 
 
@@ -340,6 +363,7 @@ namespace MiniMarket
             this.Selec_iten();
             this.Estado_Procesos(false);
             Tbp_principal.SelectedIndex = 1;
+            this.Listado_stock_actual(this.Codigo_pr);
             Gbx_Detalles.Visible = true;
         }
 

@@ -177,5 +177,32 @@ namespace MiniMarket.Datos
             }
 
         }
+        public DataTable Stock_Actual_ProdxAlmacen(int nCodigo_pr)
+        {
+            SqlDataReader Resultado;
+            DataTable Tabla = new DataTable();
+            SqlConnection SQLCon = new SqlConnection();
+
+            try
+            {
+                SQLCon = Conexion.getInstancia().CrearConexion();
+                SqlCommand Comando = new SqlCommand("USP_Stock_Actual_ProdxAlmacen", SQLCon);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("@nCodigo_pr", SqlDbType.Int).Value = nCodigo_pr;
+                SQLCon.Open();
+                Resultado = Comando.ExecuteReader();
+                Tabla.Load(Resultado);
+                return Tabla;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (SQLCon.State == ConnectionState.Open) SQLCon.Close();
+            }
+
+        }
     }
 }
