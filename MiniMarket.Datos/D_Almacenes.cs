@@ -50,7 +50,7 @@ namespace MiniMarket.Datos
                 Comando.Parameters.Add("@nCodigo_al", SqlDbType.Int).Value = oAl.Codigo_al;
                 Comando.Parameters.Add("@cDescripcion_al", SqlDbType.VarChar).Value = oAl.Descripcion_al;
                 SqlCon.Open();
-                Rpta = Comando.ExecuteNonQuery() == 1 ? "Ok" : "No se registro los Datos";
+                Rpta = Comando.ExecuteNonQuery() >= 1 ? "Ok" : "No se registro los Datos";
             }
             catch (Exception ex)
             {
@@ -73,9 +73,9 @@ namespace MiniMarket.Datos
                 SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("USP_Eliminar_al", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
-                Comando.Parameters.Add("@nCodigo_ma", SqlDbType.Int).Value = Codigo_al;
+                Comando.Parameters.Add("@nCodigo_al", SqlDbType.Int).Value = Codigo_al;
                 SqlCon.Open();
-                Rpta = Comando.ExecuteNonQuery() == 1 ? "Ok" : "No se eliminaron los Datos";
+                Rpta = Comando.ExecuteNonQuery() >= 1 ? "Ok" : "No se eliminaron los Datos";
             }
             catch (Exception ex)
             {
