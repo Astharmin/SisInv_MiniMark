@@ -70,6 +70,12 @@
     <Compile Include="Frm_Almacenes.Designer.cs">
       <DependentUpon>Frm_Almacenes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Rubros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Rubros.Designer.cs">
+      <DependentUpon>Frm_Rubros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Frm_Almacenes.resx">
       <DependentUpon>Frm_Almacenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Rubros.resx">
+      <DependentUpon>Frm_Rubros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Productos.resx">
       <DependentUpon>Frm_Productos.cs</DependentUpon>

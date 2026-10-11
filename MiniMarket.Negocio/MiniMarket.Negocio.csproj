@@ -45,6 +45,7 @@
     <Compile Include="N_Categorias.cs" />
     <Compile Include="N_Marcas.cs" />
     <Compile Include="N_Productos.cs" />
+    <Compile Include="N_Rubros.cs" />
     <Compile Include="N_Unidades.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
