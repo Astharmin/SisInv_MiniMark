@@ -124,18 +124,18 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="USP_Listado_um" msprop:Generator_RowClassName="USP_Listado_umRow" msprop:Generator_RowEvHandlerName="USP_Listado_umRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_umRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_umRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_umRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_um" msprop:Generator_RowChangedName="USP_Listado_umRowChanged" msprop:Generator_UserTableName="USP_Listado_um" msprop:Generator_RowChangingName="USP_Listado_umRowChanging" msprop:Generator_TableClassName="USP_Listado_umDataTable" msprop:Generator_TableVarName="tableUSP_Listado_um">
+        <xs:element name="USP_Listado_um" msprop:Generator_RowEvHandlerName="USP_Listado_umRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_umRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_umRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_umRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_um" msprop:Generator_RowChangedName="USP_Listado_umRowChanged" msprop:Generator_UserTableName="USP_Listado_um" msprop:Generator_RowChangingName="USP_Listado_umRowChanging" msprop:Generator_RowClassName="USP_Listado_umRow" msprop:Generator_TableClassName="USP_Listado_umDataTable" msprop:Generator_TableVarName="tableUSP_Listado_um">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="codigo_um" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_um" msprop:Generator_ColumnPropNameInTable="codigo_umColumn" msprop:Generator_ColumnPropNameInRow="codigo_um" msprop:Generator_ColumnVarNameInTable="columncodigo_um" type="xs:int" />
-              <xs:element name="descripcion_um" msprop:Generator_UserColumnName="descripcion_um" msprop:Generator_ColumnPropNameInTable="descripcion_umColumn" msprop:Generator_ColumnPropNameInRow="descripcion_um" msprop:Generator_ColumnVarNameInTable="columndescripcion_um" minOccurs="0">
+              <xs:element name="codigo_um" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="codigo_umColumn" msprop:Generator_ColumnPropNameInRow="codigo_um" msprop:Generator_UserColumnName="codigo_um" msprop:Generator_ColumnVarNameInTable="columncodigo_um" type="xs:int" />
+              <xs:element name="descripcion_um" msprop:Generator_ColumnPropNameInTable="descripcion_umColumn" msprop:Generator_ColumnPropNameInRow="descripcion_um" msprop:Generator_UserColumnName="descripcion_um" msprop:Generator_ColumnVarNameInTable="columndescripcion_um" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="20" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="abreviatura_um" msprop:Generator_UserColumnName="abreviatura_um" msprop:Generator_ColumnPropNameInTable="abreviatura_umColumn" msprop:Generator_ColumnPropNameInRow="abreviatura_um" msprop:Generator_ColumnVarNameInTable="columnabreviatura_um" minOccurs="0">
+              <xs:element name="abreviatura_um" msprop:Generator_ColumnPropNameInTable="abreviatura_umColumn" msprop:Generator_ColumnPropNameInRow="abreviatura_um" msprop:Generator_UserColumnName="abreviatura_um" msprop:Generator_ColumnVarNameInTable="columnabreviatura_um" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="5" />
@@ -145,11 +145,11 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="USP_Listado_al" msprop:Generator_RowEvHandlerName="USP_Listado_alRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_alRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_alRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_alRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_al" msprop:Generator_RowChangedName="USP_Listado_alRowChanged" msprop:Generator_RowChangingName="USP_Listado_alRowChanging" msprop:Generator_TableClassName="USP_Listado_alDataTable" msprop:Generator_RowClassName="USP_Listado_alRow" msprop:Generator_TableVarName="tableUSP_Listado_al" msprop:Generator_UserTableName="USP_Listado_al">
+        <xs:element name="USP_Listado_al" msprop:Generator_RowClassName="USP_Listado_alRow" msprop:Generator_RowEvHandlerName="USP_Listado_alRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_alRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_alRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_alRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_al" msprop:Generator_RowChangedName="USP_Listado_alRowChanged" msprop:Generator_UserTableName="USP_Listado_al" msprop:Generator_RowChangingName="USP_Listado_alRowChanging" msprop:Generator_TableClassName="USP_Listado_alDataTable" msprop:Generator_TableVarName="tableUSP_Listado_al">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="codigo_al" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="codigo_al" msprop:Generator_ColumnPropNameInTable="codigo_alColumn" msprop:Generator_ColumnVarNameInTable="columncodigo_al" msprop:Generator_UserColumnName="codigo_al" type="xs:int" />
-              <xs:element name="descripcion_al" msprop:Generator_ColumnPropNameInRow="descripcion_al" msprop:Generator_ColumnPropNameInTable="descripcion_alColumn" msprop:Generator_ColumnVarNameInTable="columndescripcion_al" msprop:Generator_UserColumnName="descripcion_al" minOccurs="0">
+              <xs:element name="codigo_al" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_al" msprop:Generator_ColumnPropNameInTable="codigo_alColumn" msprop:Generator_ColumnPropNameInRow="codigo_al" msprop:Generator_ColumnVarNameInTable="columncodigo_al" type="xs:int" />
+              <xs:element name="descripcion_al" msprop:Generator_UserColumnName="descripcion_al" msprop:Generator_ColumnPropNameInTable="descripcion_alColumn" msprop:Generator_ColumnPropNameInRow="descripcion_al" msprop:Generator_ColumnVarNameInTable="columndescripcion_al" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />

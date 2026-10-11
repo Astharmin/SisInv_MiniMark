@@ -22,3 +22,9 @@ C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMa
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.dll
 C:\Users\aaron\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\bin\Debug\MiniMarket.Entidades.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\bin\Debug\MiniMarket.Entidades.pdb
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.csproj.AssemblyReference.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.csproj.CoreCompileInputs.cache
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.dll
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket.Entidades\obj\Debug\MiniMarket.Entidades.pdb

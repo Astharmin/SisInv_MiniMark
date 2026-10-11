@@ -387,3 +387,4 @@ D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMark.CA5FF9C6.Up2
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.exe
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.pdb
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.exe.config
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.Frm_Rubros.resources
