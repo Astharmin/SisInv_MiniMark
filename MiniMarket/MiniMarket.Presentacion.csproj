@@ -177,6 +177,7 @@
     <EmbeddedResource Include="Reportes\Rpt_Almacenes.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Categorias.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Marcas.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
