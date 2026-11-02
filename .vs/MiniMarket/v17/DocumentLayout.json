@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\reportes\\rpt_rubros.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\reportes\\rpt_rubros.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\frm_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\frm_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\reportes\\rpt_marcas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\reportes\\rpt_marcas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\reportes\\frm_rpt_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\reportes\\frm_rpt_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|d:\\github\\proyectosc#\\sisinv_minimark\\minimarket\\frm_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F665D3B-6CB7-4305-B0C3-46A585EDCD7A}|MiniMarket\\MiniMarket.Presentacion.csproj|solutionrelative:minimarket\\frm_rubros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,26 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Rpt_Rubros.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Rpt_Rubros.rdlc",
-              "RelativeDocumentMoniker": "MiniMarket\\Reportes\\Rpt_Rubros.rdlc",
-              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Rpt_Rubros.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "MiniMarket\\Reportes\\Rpt_Rubros.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2026-10-19T23:00:56.315Z",
+              "Title": "Frm_Rubros.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Rubros.cs",
+              "RelativeDocumentMoniker": "MiniMarket\\Frm_Rubros.cs",
+              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Rubros.cs",
+              "RelativeToolTip": "MiniMarket\\Frm_Rubros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T19:03:36.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Frm_Rubros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Rubros.cs",
+              "RelativeDocumentMoniker": "MiniMarket\\Frm_Rubros.cs",
+              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Frm_Rubros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MiniMarket\\Frm_Rubros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T19:03:19.431Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Rpt_Marcas.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Rpt_Marcas.rdlc",
-              "RelativeDocumentMoniker": "MiniMarket\\Reportes\\Rpt_Marcas.rdlc",
-              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Rpt_Marcas.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "MiniMarket\\Reportes\\Rpt_Marcas.rdlc [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2026-10-19T22:59:33.078Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Title": "Frm_Rpt_Rubros.cs",
+              "DocumentMoniker": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Frm_Rpt_Rubros.cs",
+              "RelativeDocumentMoniker": "MiniMarket\\Reportes\\Frm_Rpt_Rubros.cs",
+              "ToolTip": "D:\\GitHub\\ProyectosC#\\SisInv_MiniMark\\MiniMarket\\Reportes\\Frm_Rpt_Rubros.cs",
+              "RelativeToolTip": "MiniMarket\\Reportes\\Frm_Rpt_Rubros.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T19:00:18.85Z",
+              "EditorCaption": ""
             }
           ]
         }
