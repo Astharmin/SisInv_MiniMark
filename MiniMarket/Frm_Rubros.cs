@@ -63,7 +63,7 @@ namespace MiniMarket
 
         private void Selec_iten()
         {
-            if (string.IsNullOrEmpty(Convert.ToString(Dgv_principal.CurrentRow.Cells["codigo_ma"].Value)))
+            if (string.IsNullOrEmpty(Convert.ToString(Dgv_principal.CurrentRow.Cells["codigo_ru"].Value)))
             {
                 MessageBox.Show("No hay informacion visible",
                     "Aviso del Sistema",
