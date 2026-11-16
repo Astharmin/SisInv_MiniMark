@@ -389,3 +389,5 @@ D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.pdb
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.exe.config
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.Frm_Rubros.resources
 D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.Reportes.Frm_Rpt_Rubros.resources
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.Frm_Departamento.resources
+D:\GitHub\ProyectosC#\SisInv_MiniMark\MiniMarket\obj\Debug\MiniMarket.Reportes.Frm_Rpt_Departamentos.resources

@@ -571,6 +571,7 @@
             // Txt_descripcion_ca
             // 
             this.Txt_descripcion_ca.Location = new System.Drawing.Point(106, 100);
+            this.Txt_descripcion_ca.MaxLength = 40;
             this.Txt_descripcion_ca.Name = "Txt_descripcion_ca";
             this.Txt_descripcion_ca.ReadOnly = true;
             this.Txt_descripcion_ca.Size = new System.Drawing.Size(281, 20);
@@ -598,6 +599,7 @@
             // Txt_descripcion_um
             // 
             this.Txt_descripcion_um.Location = new System.Drawing.Point(106, 74);
+            this.Txt_descripcion_um.MaxLength = 30;
             this.Txt_descripcion_um.Name = "Txt_descripcion_um";
             this.Txt_descripcion_um.ReadOnly = true;
             this.Txt_descripcion_um.Size = new System.Drawing.Size(281, 20);
@@ -625,6 +627,7 @@
             // Txt_descripcion_ma
             // 
             this.Txt_descripcion_ma.Location = new System.Drawing.Point(106, 48);
+            this.Txt_descripcion_ma.MaxLength = 40;
             this.Txt_descripcion_ma.Name = "Txt_descripcion_ma";
             this.Txt_descripcion_ma.ReadOnly = true;
             this.Txt_descripcion_ma.Size = new System.Drawing.Size(281, 20);
